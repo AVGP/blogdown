@@ -5,7 +5,7 @@
     </span>
     <span ng-hide="user"><a ng-click="login()">Login</a></span>
 </div>
-<input ng-model="author">
+
 <ul>
   <li ng-repeat="post in posts | filter: author">
     <h2>{{post.title}}</h2>
