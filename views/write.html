@@ -1,0 +1,11 @@
+<div class="editor">
+    <input ng-model="post.title" class="title" />
+    <textarea id="content" cols="120" ng-model="post.text"></textarea>
+</div>
+<div class="preview">
+    <h1>{{post.title}}</h1>
+    <markdown ng-model="post.text"></markdown>
+</div>
+<div class="bottombar">
+    <button ng-click="publish()">Publish</button>
+</div>
