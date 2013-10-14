@@ -1,3 +1,3 @@
-writedown.factory('Posts', function(angularFireCollection, firebaseURL) {
-  return angularFireCollection(firebaseURL + '/posts');
+writedown.factory('Posts', function(angularFireCollection, firebaseRef) {
+  return angularFireCollection(firebaseRef);
 });
